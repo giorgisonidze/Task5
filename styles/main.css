@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+body{
+	padding: 2%;
+}
+.mainbox{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-color: #042F5F;
+	padding: 2%;
+}
+.insidebox{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-color: white;
+	padding: 2%;
+	border-radius: 2px;
+	border-color: red;
+}
+.wrapperbox{
+	height: 40%;
+	width: 100%;
+	margin: auto;
+	background-color: #304A67;
+	padding: 4% 2% 4% 2%;
+}
+.firstitem{
+	height: 100%;
+	width: 19.25%;
+	float: left;
+	background-color: white;
+	border-radius: 1px;
+	margin: 0 0 0 7%;
+}
+.firstitem:first-child{
+	margin-left: 1%;
+}
+.firstitem:last-child{
+	margin-right: 1%;
+}
