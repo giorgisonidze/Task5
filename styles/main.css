@@ -21,8 +21,7 @@ body{
 	margin: auto;
 	background-color: white;
 	padding: 2%;
-	border-radius: 2px;
-	border-color: red;
+	border: 5px solid #2267B5;
 }
 .wrapperbox{
 	height: 40%;
@@ -30,18 +29,44 @@ body{
 	margin: auto;
 	background-color: #304A67;
 	padding: 4% 2% 4% 2%;
+	border: 5px solid #2267B5;
 }
 .firstitem{
 	height: 100%;
 	width: 19.25%;
 	float: left;
 	background-color: white;
-	border-radius: 1px;
 	margin: 0 0 0 7%;
+	padding: 1.5% 2% 1.5% 2%;
+}
+.textbox{
+	height: 100%;
+	width: 100%;
+	background-color: #75B3F9;
+	border: 2px solid #2267B5;
+	display: flex;
+}
+.textbox p{
+	margin: auto;
+	font-size: 16px;
+	color: white;
 }
 .firstitem:first-child{
 	margin-left: 1%;
 }
 .firstitem:last-child{
 	margin-right: 1%;
+}
+.bottombox{
+	height: 55%;
+	width: 100%;
+	margin-top: 2%;
+	background-color: #304A67;
+	border: 5px solid #2267B5;
+	display: flex;
+}
+.bottombox p{
+	margin: auto;
+	font-size: 50px;
+	color: white;
 }
